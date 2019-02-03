@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@if (TempData["url"] != null)
+{
+    <a href="@TempData["url"]" target="_blank">PDF Link</a>
+}
